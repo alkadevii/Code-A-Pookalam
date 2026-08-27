@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Onam Pookalam - Git Instructions</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8e1;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+        }
+
+        h1 {
+            text-align: center;
+            color: #e65100;
+        }
+
+        h2 {
+            color: #388e3c;
+        }
+
+        .step {
+            margin: 20px 0;
+        }
+
+        pre {
+            background-color: #212121;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🌼 Onam Pookalam Project</h1>
+
+        <p>
+            Follow the steps below to create, upload and host your
+            Onam Pookalam project using Git and GitHub.
+        </p>
+
+        <div class="step">
+            <h2>1. Create the Project</h2>
+            <p>
+                Create a folder for your Pookalam project and add
+                your HTML, CSS and JavaScript files.
+            </p>
+        </div>
+
+        <div class="step">
+            <h2>2. Fork the Repository</h2>
+            <p>
+                Open the original GitHub repository and click
+                <b>Fork</b> to create your own copy.
+            </p>
+        </div>
+
+        <div class="step">
+            <h2>3. Initialize Git Repository</h2>
+
+            <pre>
+git init
+            </pre>
+        </div>
+
+        <div class="step">
+            <h2>4. Add Remote Repository</h2>
+
+            <pre>
+git remote add origin https://github.com/USERNAME/REPOSITORY.git
+            </pre>
+        </div>
+
+        <div class="step">
+            <h2>5. Add Files</h2>
+
+            <pre>
+git add .
+            </pre>
+        </div>
+
+        <div class="step">
+            <h2>6. Commit Changes</h2>
+
+            <pre>
+git commit -m "Add Onam Pookalam project"
+            </pre>
+        </div>
+
+        <div class="step">
+            <h2>7. Push to GitHub</h2>
+
+            <pre>
+git branch -M main
+git push -u origin main
+            </pre>
+        </div>
+
+        <div class="step">
+            <h2>8. Host the Website</h2>
+
+            <p>
+                Go to your GitHub repository and open:
+            </p>
+
+            <pre>
+Settings → Pages → Deploy from a branch
+            </pre>
+
+            <p>
+                Select the <b>main</b> branch and click
+                <b>Save</b>. GitHub Pages will host your website.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
